@@ -152,7 +152,7 @@ class dndDoubleList extends Component {
                 )}
               </Droppable>
             </Grid.Column>
-            <Grid.Column>
+            <Grid.Column width={4} stretched>
               <Droppable droppableId="droppable2">
                 {(provided, snapshot) => (
                   <div
